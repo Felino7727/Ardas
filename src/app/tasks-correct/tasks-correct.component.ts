@@ -25,7 +25,15 @@ export class TasksCorrectComponent implements OnInit {
   constructor(private router: ActivatedRoute, private taskService: TasksServices) {
   }
   Onclick():void{
-    console.log(this.name);
+    this.task[0].name=this.name;
+    this.task[0].creation_date=this.creation_date;
+    this.task[0].due_date=this.due_date;
+    this.task[0].physical_progress=this.physical_progress;
+    this.task[0].obj_status=this.obj_status;
+    this.task[0].description=this.description;
+    this.task[0].tags=this.tags;
+    this.taskService.PutTasks(this.task);
+    console.log(this.task);
   }
   ngOnInit() {
     this.id = this.router.snapshot.params['id'];
