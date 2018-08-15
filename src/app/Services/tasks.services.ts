@@ -14,7 +14,7 @@ export class TasksServices {
   }
 
   PutTasks(obj: TasksModels[]): Observable<TasksModels[]> {
-    return this.http.put<TasksModels[]>('http://localhost:3000/tasks', obj);
+    return this.http.put<TasksModels[]>('http://localhost:3000/tasks', obj);//Доделать
   }
 
 }
