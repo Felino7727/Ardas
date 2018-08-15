@@ -1,0 +1,50 @@
+<form *ngFor="let tasks of task">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Name</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">{{tasks.name}}</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Creation date</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="1">{{tasks.creation_date}}</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Due date</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" >{{tasks.due_date}}</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Physical progress</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea4" rows="1">{{tasks.physical_progress}}%</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Status</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea5" rows="1" >{{tasks.obj_status}}</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Description</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea6" rows="7">{{tasks.description}}</textarea>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Tags</span>
+    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea7" rows="1">{{tasks.tags}}</textarea>
+  </div>
+
+  <div>
+    <h3><a [routerLink]="''">Back</a></h3>
+    <h3><a (click)="Onclick()" [routerLink]="''">Save</a></h3>
+  </div>
+</form>
+

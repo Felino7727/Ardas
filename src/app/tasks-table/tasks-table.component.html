@@ -1,0 +1,25 @@
+<table class="table">
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+         placeholder="Search" [(ngModel)]="Search">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Tags</th>
+    <th scope="col">Actual efort</th>
+    <th scope="col">Estimated efort</th>
+    <th scope="col">Due date</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let task of task | search:Search">
+    <td><a *ngIf="task.is_high_priority" [routerLink]="['view',task.id]"><span class="badge badge-secondary">{{task.name}}</span></a>
+      <a *ngIf="!task.is_high_priority" [routerLink]="['view',task.id]">{{task.name}}</a></td>
+    <td>{{task.tags}}</td>
+    <td>{{task.start_date}}</td>
+    <td>{{task.physical_progress}}</td>
+    <td>{{task.due_date}} <a [routerLink]="['edit',task.id]"><span class="badge badge-secondary">Edit</span></a></td>
+  </tr>
+
+  </tbody>
+</table>
