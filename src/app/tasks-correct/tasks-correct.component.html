@@ -1,45 +1,45 @@
-<form *ngFor="let tasks of task">
+<form>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Name</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">{{tasks.name}}</textarea>
+    <textarea name="name" [(ngModel)]="name" class="form-control" id="exampleFormControlTextarea1" rows="1">{{name}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Creation date</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea2" rows="1">{{tasks.creation_date}}</textarea>
+    <textarea name="creation_date" [(ngModel)]="creation_date" class="form-control" id="exampleFormControlTextarea2" rows="1">{{creation_date}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Due date</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" >{{tasks.due_date}}</textarea>
+    <textarea name="due_date" [(ngModel)]="due_date" class="form-control" id="exampleFormControlTextarea3" rows="1" >{{due_date}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Physical progress</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea4" rows="1">{{tasks.physical_progress}}%</textarea>
+    <textarea name="physical_progress" [(ngModel)]="physical_progress" class="form-control" id="exampleFormControlTextarea4" rows="1">{{physical_progress}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Status</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea5" rows="1" >{{tasks.obj_status}}</textarea>
+    <textarea name="obj_status" [(ngModel)]="obj_status" class="form-control" id="exampleFormControlTextarea5" rows="1" >{{obj_status}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Description</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea6" rows="7">{{tasks.description}}</textarea>
+    <textarea name="description"  [(ngModel)]="description" class="form-control" id="exampleFormControlTextarea6" rows="7">{{description}}</textarea>
   </div>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text">Tags</span>
     </div>
-    <textarea class="form-control" id="exampleFormControlTextarea7" rows="1">{{tasks.tags}}</textarea>
+    <textarea name="tags" [(ngModel)]="tags" class="form-control" id="exampleFormControlTextarea7" rows="1">{{tags}}</textarea>
   </div>
 
   <div>
