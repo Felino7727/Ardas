@@ -42,7 +42,7 @@ export class TasksCorrectComponent implements OnInit {
       this.description,
       0,
       this.tags,
-      this.task[0].is_high_priorit,
+      this.task[0].is_high_priority,
       this.task[0].id);
 
     this.taskService.DelTasks(this.task1).subscribe();

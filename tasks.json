@@ -1,22 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "name": "Today_task1",
-      "creation_date": "2015-04-21T06:50:21",
-      "due_date": "2015-04-22T23:59:00",
-      "start_date": "2015-04-21T00:00:01",
-      "is_completed": false,
-      "is_archived": false,
-      "estimated_effort": 5.5,
-      "actual_effort": 3.3,
-      "physical_progress": 60,
-      "obj_status": "active",
-      "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
-      "project_id": 0,
-      "is_high_priority": false
-    },
-    {
       "id": 3,
       "name": "Upcoming_task",
       "creation_date": "2015-04-22T06:50:23",
@@ -334,6 +318,74 @@
       "tags": "",
       "is_high_priority": true,
       "id": 2
+    },
+    {
+      "name": "7727",
+      "creation_date": "2018-08-12",
+      "due_date": "2018-08-24",
+      "start_date": "",
+      "is_completed": true,
+      "is_archived": true,
+      "estimated_effort": 5,
+      "actual_effort": 7,
+      "physical_progress": "20%",
+      "obj_status": "active",
+      "description": "ergerg",
+      "project_id": 0,
+      "tags": "ergergaegaergaergaerg",
+      "is_high_priority": "true",
+      "id": 25
+    },
+    {
+      "name": "74747",
+      "creation_date": "2018-08-09",
+      "due_date": "2018-08-12",
+      "start_date": "",
+      "is_completed": true,
+      "is_archived": true,
+      "estimated_effort": 5,
+      "actual_effort": 7,
+      "physical_progress": "100%",
+      "obj_status": "active",
+      "description": "hh",
+      "project_id": 0,
+      "tags": "hh",
+      "is_high_priority": "False",
+      "id": 26
+    },
+    {
+      "name": "Today_task127777",
+      "creation_date": "2015-04-21T06:50:21",
+      "due_date": "2015-04-22T23:59:00",
+      "start_date": "2015-04-21T00:00:01",
+      "is_completed": false,
+      "is_archived": false,
+      "estimated_effort": 5.5,
+      "actual_effort": 3.3,
+      "physical_progress": 60,
+      "obj_status": "active",
+      "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
+      "project_id": 0,
+      "tags": "",
+      "is_high_priority": false,
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "creation_date": "2017-01-01",
+      "due_date": "2018-01-01",
+      "start_date": "",
+      "is_completed": true,
+      "is_archived": true,
+      "estimated_effort": 5,
+      "actual_effort": 7,
+      "physical_progress": "50%",
+      "obj_status": "active",
+      "description": "Test",
+      "project_id": 0,
+      "tags": "Test",
+      "is_high_priority": "False",
+      "id": 27
     }
   ]
 }
