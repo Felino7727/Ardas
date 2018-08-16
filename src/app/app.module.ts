@@ -10,6 +10,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {SearchPipe} from './Pipe/search.pipe';
 import { TasksCorrectComponent } from './tasks-correct/tasks-correct.component';
+import { TasksNewComponent } from './tasks-new/tasks-new.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TasksCorrectComponent } from './tasks-correct/tasks-correct.component';
     TasksTableComponent,
     TasksEditComponent,
     SearchPipe,
-    TasksCorrectComponent
+    TasksCorrectComponent,
+    TasksNewComponent
   ],
   imports: [
     BrowserModule,

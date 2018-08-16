@@ -11,9 +11,10 @@
       "estimated_effort": 5.5,
       "actual_effort": 3.3,
       "physical_progress": 60,
-      "obj_status": "active1",
+      "obj_status": "active",
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
-      "project_id": 0
+      "project_id": 0,
+      "is_high_priority": false
     },
     {
       "id": 3,
@@ -27,7 +28,8 @@
       "actual_effort": 0,
       "physical_progress": 100,
       "obj_status": "active",
-      "project_id": 1
+      "project_id": 1,
+      "is_high_priorit": true
     },
     {
       "id": 4,
@@ -41,7 +43,8 @@
       "actual_effort": 0,
       "physical_progress": 50,
       "obj_status": "active",
-      "project_id": 3
+      "project_id": 3,
+      "is_high_priorit": true
     },
     {
       "id": 5,
@@ -156,7 +159,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": false,
       "id": 12
     },
     {
@@ -173,7 +176,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 13
     },
     {
@@ -190,7 +193,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 14
     },
     {
@@ -207,7 +210,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": false,
       "id": 15
     },
     {
@@ -224,7 +227,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": false,
       "id": 16
     },
     {
@@ -241,7 +244,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 17
     },
     {
@@ -258,7 +261,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 24
     },
     {
@@ -278,7 +281,7 @@
         "ardas",
         "task"
       ],
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 18
     },
     {
@@ -295,7 +298,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 19
     },
     {
@@ -312,7 +315,7 @@
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 20
     },
     {
@@ -329,7 +332,7 @@
       "description": "",
       "project_id": 0,
       "tags": "",
-      "is_high_priorit": true,
+      "is_high_priority": true,
       "id": 2
     }
   ]

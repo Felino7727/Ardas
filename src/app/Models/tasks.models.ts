@@ -13,7 +13,7 @@
     public description: string='',
     public project_id: number = 0,
     public tags:string = '',
-    public is_high_priorit: boolean = true,
+    public is_high_priority: boolean = true,
     public id?: number){}
   }
 
