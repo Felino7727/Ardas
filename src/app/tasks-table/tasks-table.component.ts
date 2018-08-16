@@ -21,12 +21,12 @@ export class TasksTableComponent implements OnInit {
       this.task = task.filter(obj =>
         obj.obj_status == this.stat
       );
-     /* this.task.forEach(c=>
+      this.task.forEach(c=>
       {
         c.due_date=c.due_date.replace('T',' ');
         c.start_date=c.due_date.replace('T',' ');
         c.start_date=c.due_date.replace('Z',' ');
-      });*/
+      });
     });
   }
 

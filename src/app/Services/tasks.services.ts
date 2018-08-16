@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {HttpClient } from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {TasksModels} from '../Models/tasks.models';
 import {Observable, of} from 'rxjs';
 import {catchError, tap} from 'rxjs/operators';
@@ -25,9 +25,19 @@ export class TasksServices {
     );
   }
 
-  PutTasks(obj: TasksModels): Observable<TasksModels[]> {
+  PostTasks(obj: TasksModels): Observable<TasksModels[]> {
     console.log(obj);
-    return this.http.post<TasksModels[]>('http://localhost:3000/tasks', obj)
+    return this.http.post<TasksModels[]>('http://localhost:3000/tasks/',obj).pipe(
+      tap(()=>console.log('Post')),
+      catchError(this.handleError('get Post',[]))
+    );
+  }
+  DelTasks(obj: TasksModels): Observable<TasksModels[]> {
+    console.log(obj);
+    return this.http.delete<TasksModels[]>('http://localhost:3000/tasks/'+obj.id).pipe(
+      tap(()=>console.log('Del')),
+      catchError(this.handleError('get Del',[]))
+    );
   }
 
 

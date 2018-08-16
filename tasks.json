@@ -16,40 +16,6 @@
       "project_id": 0
     },
     {
-      "id": 11,
-      "name": "Today_task11",
-      "creation_date": "2015-04-21T06:50:21",
-      "due_date": "2015-04-22T23:59:00",
-      "start_date": "2015-04-21T00:00:01",
-      "is_completed": false,
-      "is_archived": false,
-      "estimated_effort": 5.5,
-      "actual_effort": 3.3,
-      "physical_progress": 60,
-      "obj_status": "active",
-      "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit,Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
-      "project_id": 0,
-      "tags": [
-        "meeting"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Today_task12",
-      "creation_date": "2015-04-21T06:50:21",
-      "due_date": "2015-04-22T23:59:00",
-      "start_date": "2015-04-21T00:00:01",
-      "is_completed": false,
-      "is_archived": false,
-      "estimated_effort": 5.5,
-      "actual_effort": 3.3,
-      "physical_progress": 60,
-      "obj_status": "active",
-      "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
-      "project_id": 0,
-      "is_high_priorit":true
-    },
-    {
       "id": 13,
       "name": "Today_task13",
       "creation_date": "2015-04-21T06:50:21",
@@ -182,8 +148,8 @@
       "start_date": "2015-04-22T00:00:00Z",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 1.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 1,
+      "actual_effort": 0,
       "physical_progress": 10,
       "obj_status": "active",
       "project_id": 1
@@ -196,8 +162,8 @@
       "start_date": "2015-04-28T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 100,
       "obj_status": "active",
       "project_id": 1
@@ -210,8 +176,8 @@
       "start_date": "2015-04-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 50,
       "obj_status": "active",
       "project_id": 3
@@ -224,8 +190,8 @@
       "start_date": "2025-05-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4
@@ -238,8 +204,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": true,
       "is_archived": true,
-      "estimated_effort": 5.0,
-      "actual_effort": 5.0,
+      "estimated_effort": 5,
+      "actual_effort": 5,
       "physical_progress": 50,
       "obj_status": "active",
       "project_id": 6
@@ -252,8 +218,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 23.0,
-      "actual_effort": 15.0,
+      "estimated_effort": 23,
+      "actual_effort": 15,
       "physical_progress": 50,
       "obj_status": "trashed",
       "project_id": 5
@@ -266,8 +232,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 10.0,
-      "actual_effort": 1.0,
+      "estimated_effort": 10,
+      "actual_effort": 1,
       "physical_progress": 50,
       "obj_status": "deleted",
       "project_id": 6
@@ -280,8 +246,8 @@
       "start_date": "2015-05-25T00:00:00",
       "is_completed": true,
       "is_archived": true,
-      "estimated_effort": 5.0,
-      "actual_effort": 4.0,
+      "estimated_effort": 5,
+      "actual_effort": 4,
       "physical_progress": 100,
       "obj_status": "active",
       "project_id": 6
@@ -294,8 +260,8 @@
       "start_date": "2025-05-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4
@@ -308,8 +274,8 @@
       "start_date": "2025-07-10T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 0.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 0,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4,
@@ -324,6 +290,23 @@
       "obj_status": "active",
       "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
       "project_id": 0
+    },
+    {
+      "name": "Today_task1222232",
+      "creation_date": "2015-04-21T06:50:21",
+      "due_date": "2015-04-22T23:59:00",
+      "start_date": "2015-04-21T00:00:01",
+      "is_completed": false,
+      "is_archived": false,
+      "estimated_effort": 5.5,
+      "actual_effort": 3.3,
+      "physical_progress": 60,
+      "obj_status": "active",
+      "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
+      "project_id": 0,
+      "tags": "",
+      "is_high_priorit": true,
+      "id": 12
     }
   ]
 }
