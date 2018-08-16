@@ -31,7 +31,7 @@ describe('Service', () => {
       description: 'Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit',
       project_id: 0,
       tags: '',
-      is_high_priorit: true,
+      is_high_priority: true,
       id: 17
     }];
     service.GetTasks().subscribe(c => {
@@ -58,7 +58,7 @@ describe('Service', () => {
       description: 'Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit',
       project_id: 0,
       tags: '',
-      is_high_priorit: true,
+      is_high_priority: true,
       id: 17
     }];
     service.DelTasks(task[0]).subscribe(c => {
@@ -85,7 +85,7 @@ describe('Service', () => {
       description: 'Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit',
       project_id: 0,
       tags: '',
-      is_high_priorit: true,
+      is_high_priority: true,
       id: 17
     }];
     service.PostTasks(task[0]).subscribe(c => {
