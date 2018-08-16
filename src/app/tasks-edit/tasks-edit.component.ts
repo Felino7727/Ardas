@@ -22,7 +22,7 @@ export class TasksEditComponent implements OnInit {
     console.log(this.id);
     this.taskService.GetTasks().subscribe(obj => {
       this.task = obj.filter(c => c.id == this.id);
-      console.log(this.task);
+      //console.log(this.task);
     });
   }
 
