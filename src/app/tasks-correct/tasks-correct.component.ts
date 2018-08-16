@@ -12,7 +12,7 @@ import {TasksServices} from '../Services/tasks.services';
 
 export class TasksCorrectComponent implements OnInit {
   @Input()
-  id: any;
+  id: number;
   task: TasksModels[] = [];
   task1: any;
   name;

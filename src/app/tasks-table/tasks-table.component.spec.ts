@@ -21,7 +21,7 @@ describe('Component', () => {
     fixture.detectChanges();
   });
 
-  it('Create Component(TasksCorrectComponent)', () => {
+  it('Create Component(Table)', () => {
     expect(component).toBeTruthy();
   });
 });
