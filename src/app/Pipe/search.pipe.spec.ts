@@ -23,7 +23,7 @@ describe('SearchPipe_', () => {
       description: 'Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit',
       project_id: 0,
       tags: '',
-      is_high_priorit: true,
+      is_high_priority: true,
       id: 17
     },
       {
@@ -40,7 +40,7 @@ describe('SearchPipe_', () => {
         description: 'Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit',
         project_id: 0,
         tags: '',
-        is_high_priorit: true,
+        is_high_priority: true,
         id: 17
       }];
     const pipe = new SearchPipe();
